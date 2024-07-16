@@ -1,0 +1,60 @@
+{
+  "name": "@chainplatform/react-native-web-webview",
+  "version": "1.0.3",
+  "description": "React Native Web WebView implementation of RN's WebView, this package fork from https://www.npmjs.com/package/react-native-web-webview adn fix deprecated function.",
+  "main": "dist/index.js",
+  "main-es": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChainPlatform/react-native-web-webview.git"
+  },
+  "author": {
+    "name": "Tran Doan San",
+    "email": "santran686@gmail.com",
+    "url": "https://github.com/ChainPlatform"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-native-web",
+    "react-native-webview",
+    "react-native-web-webview",
+    "@chainplatform/react-native-web-webview",
+    "WebView"
+  ],
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "mkdir -p dist && babel src --out-dir dist --copy-files",
+    "test": "prettier --check ."
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "files": [
+    "src",
+    "dist",
+    "yarn.lock"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^9.1.3",
+    "babel-preset-react-native": "^4.0.1",
+    "file-loader": "^6.2.0",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native-web": "^0.19.12",
+    "webpack": "^5.93.0"
+  },
+  "peerDependencies": {
+    "file-loader": "*",
+    "react-native-web": "*"
+  },
+  "dependencies": {
+    "qs": "^6.5.1"
+  }
+}
