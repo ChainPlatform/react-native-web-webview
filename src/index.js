@@ -49,7 +49,7 @@ export class WebView extends Component {
             }
 
             window.open(
-                require('./postMock.html') +
+                (typeof source.origin_uri != "undefined" ? require(source.origin_uri + '/postMock.html') : require('./postMock.html')) +
                 '?' +
                 Qs.stringify({
                     uri: source.uri,
