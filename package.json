@@ -1,18 +1,14 @@
 {
   "name": "@chainplatform/react-native-web-webview",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native Web WebView implementation of RN's WebView, this package fork from https://www.npmjs.com/package/react-native-web-webview adn fix deprecated function.",
   "main": "dist/index.js",
   "main-es": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ChainPlatform/react-native-web-webview.git"
+    "url": "git+ssh://git@github.com/ChainPlatform/react-native-web-webview.git"
   },
-  "author": {
-    "name": "Tran Doan San",
-    "email": "santran686@gmail.com",
-    "url": "https://github.com/ChainPlatform"
-  },
+  "author": "Tran Doan San <santran686@gmail.com> (https://github.com/ChainPlatform)",
   "license": "MIT",
   "keywords": [
     "react-native",
@@ -56,5 +52,9 @@
   },
   "dependencies": {
     "qs": "^6.5.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ChainPlatform/react-native-web-webview/issues"
+  },
+  "homepage": "https://github.com/ChainPlatform/react-native-web-webview#readme"
 }
