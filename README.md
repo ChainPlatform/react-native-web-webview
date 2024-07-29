@@ -34,7 +34,7 @@ module.exports = {
         rules: [
           ... others line
           {
-            test: /postMock.html$/,
+            test: /postMocks.html$/,
             use: {
               loader: 'file-loader',
               options: {

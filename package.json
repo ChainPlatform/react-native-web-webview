@@ -1,6 +1,6 @@
 {
   "name": "@chainplatform/react-native-web-webview",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React Native Web WebView implementation of RN's WebView, this package fork from https://www.npmjs.com/package/react-native-web-webview adn fix deprecated function.",
   "main": "dist/index.js",
   "main-es": "src/index.js",
